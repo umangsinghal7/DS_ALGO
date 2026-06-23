@@ -21,7 +21,7 @@ using namespace std;
 
 // }
 
-class Node // class=struct nodiff
+class Node // class=struct no diff
 {
 public:
     int data;
@@ -30,7 +30,7 @@ public:
 public:
     Node(int data1)
     {
-        data = data1;
+        data = data1;         //constructor
         next = nullptr;
     }
 };
@@ -47,7 +47,7 @@ Node *convertarr2ll(vector<int> &arr)
     }
     return head;
 }
-
+//lengthofLL
 int lengthofll(Node *head)
 {
     int cnt = 0;
@@ -60,7 +60,7 @@ int lengthofll(Node *head)
     }
     return cnt;
 }
-
+//searching
 int searchifpresent(Node*head,int val){
      Node *temp = head;
     while (temp)
